@@ -96,7 +96,7 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 
 // --- 2. Hero Component ---
 const Hero = () => {
-  const heroImageUrl = "https://placehold.co/1920x1080/4A5568/FFFFFF?text=Hero:+Your+Image+12.png+(Elephants)";
+  const heroImageUrl = "/hero-background.png";
   
   return (
     <section 
