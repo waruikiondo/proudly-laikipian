@@ -137,7 +137,7 @@ const Hero = () => {
 // --- 3. About Component ---
 const About = () => {
   // Replace with client's actual portrait
-  const portraitUrl = "https://placehold.co/600x600/E2E8F0/4A5568?text=Kuhia's+Portrait";
+  const portraitUrl = "/portrait.png";
 
   return (
     <section id="about" className="py-24 bg-gray-50">
