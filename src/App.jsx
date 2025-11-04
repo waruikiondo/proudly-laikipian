@@ -237,13 +237,20 @@ const Services = () => {
 // --- 5. Gallery Component ---
 const Gallery = () => {
   const images = [
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=5.png+(Sunset)", alt: "Sunset sundowner (5.png)", span: "col-span-1 md:col-span-2" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=10.png+(Hiker)", alt: "Hiker in vast landscape (10.png)", span: "col-span-1" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=6.png+(Luxury+Bath)", alt: "Luxury lodge bathtub (6.png)", span: "col-span-1" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=7.png+(Camp+Bed)", alt: "Glamping tent interior (7.png)", span: "col-span-1" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=4.png+(Pool+View)", alt: "Pool overlooking landscape (4.png)", span: "col-span-1 md:col-span-2" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=8.png+(Crane)", alt: "Crested crane (8.png)", span: "col-span-1" },
-    { src: "https://placehold.co/600x400/4A5568/FFFFFF?text=9.png+(Mountain)", alt: "Malaso, Maralal landscape (9.png)", span: "col-span-1" },
+    // This first one matches your 'sunset.png' and gets a wider span
+    { src: "/sunset.png", alt: "Beautiful African sunset", span: "col-span-1 md:col-span-2" },
+    // This could be your 'kenya.png' or 'malaso.png' for a landscape
+    { src: "/malaso.png", alt: "Mountain landscape, Maralal", span: "col-span-1" }, 
+    // This could be your 'jacuzzi.png' for the luxury bath
+    { src: "/jacuzzi.png", alt: "Luxury outdoor bathtub", span: "col-span-1" },
+    // This could be your 'bed.png' for the glamping tent
+    { src: "/bed.png", alt: "Comfortable glamping tent interior", span: "col-span-1" },
+    // This could be your 'pool.png' for a pool view
+    { src: "/pool.png", alt: "Infinity pool overlooking Kenyan plains", span: "col-span-1 md:col-span-2" }, 
+    // This could be your 'crane.png' for wildlife
+    { src: "/crane.png", alt: "Crested crane in its natural habitat", span: "col-span-1" },
+    // This could be your 'lodwar.png' or 'kenya.png'
+    { src: "/lodwar.png", alt: "Lodwar landscape or unique Kenyan scenery", span: "col-span-1" }, 
   ];
 
   return (
