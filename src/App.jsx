@@ -96,7 +96,7 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 
 // --- 2. Hero Component ---
 const Hero = () => {
-  const heroImageUrl = "/hero-background.png";
+  const heroImageUrl = "/hero-background.png.png";
   
   return (
     <section 
