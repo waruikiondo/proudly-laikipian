@@ -27,12 +27,11 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo - Using placeholder, replace with 4.jpg */}
         <a href="#home" className="flex items-center space-x-2">
-          <img 
-            src="https://placehold.co/150x50/0047AB/FFFFFF?text=Proudly+Laikipian&font=inter"
-            alt="Proudly Laikipian Logo (4.jpg)"
-            className="h-10 w-auto rounded"
-            onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/150x50/0047AB/FFFFFF?text=Logo+Error'; }}
-          />
+        <img 
+  src="/logo.jpg"
+  alt="Proudly Laikipian Logo"
+  className="h-10 w-auto rounded-md" 
+/>
         </a>
 
         {/* Desktop Nav */}
@@ -354,12 +353,11 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             {/* Logo Placeholder */}
             <a href="#home">
-              <img 
-                src="https://placehold.co/200x60/1a202c/FFFFFF?text=Proudly+Laikipian&font=inter"
-                alt="Proudly Laikipian Logo (4.jpg)"
-                className="h-12 w-auto rounded mx-auto md:mx-0"
-                onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/200x60/1a202c/FFFFFF?text=Logo+Error'; }}
-              />
+            <img 
+  src="/logo.jpg"
+  alt="Proudly Laikipian Logo"
+  className="h-12 w-auto rounded-md mx-auto md:mx-0"
+/>
             </a>
             <p className="mt-4 max-w-sm mx-auto md:mx-0">
               Curating authentic Kenyan travel experiences.
